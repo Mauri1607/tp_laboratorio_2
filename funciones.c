@@ -13,10 +13,12 @@ void Ordenar(EPersona persona[], int length )
         for(k = i+1; k<length; k++)
         {
             if(strcmp(persona[i].nombre, persona[k].nombre) > 0)
-            EPersona persAux[1];
-            persAux[0] = persona[k];
-            persona[k] = persona[i];
-            persona[i] = persAux[0];
+            {
+                EPersona persAux[1];
+                persAux[0] = persona[k];
+                persona[k] = persona[i];
+                persona[i] = persAux[0];
+            }
         }
     }
 }

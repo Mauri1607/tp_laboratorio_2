@@ -5,10 +5,10 @@
 
 int main()
 {
-    char seguir='s';
-    int opcion=0;
+    char seguir = 's';
+    int opcion = 0;
 
-    while(seguir=='s')
+    while(seguir == 's')
     {
         printf("1- Agregar persona\n");
         printf("2- Borrar persona\n");
