@@ -2,11 +2,14 @@
 #include <stdlib.h>
 #include "funciones.h"
 
-
 int main()
 {
     char seguir = 's';
     int opcion = 0;
+    int index = 0;
+    int length = 20;
+    EPersona lista[length];
+
 
     while(seguir == 's')
     {
@@ -21,13 +24,20 @@ int main()
         switch(opcion)
         {
             case 1:
+                index = obtenerEspacioLibre(lista[], length);
+                PersonaAdd(&lista[index]);
                 break;
+
             case 2:
+                PersonaDelete(EPersona lista[]);
                 break;
+
             case 3:
                 break;
+
             case 4:
                 break;
+
             case 5:
                 seguir = 'n';
                 break;

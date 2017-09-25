@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1506380620 source:d:\mauri\tp02\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1506383072 d:\mauri\tp02\funciones.h
+
+1506383038 source:d:\mauri\tp02\funciones.c
+	<stdio.h>
+	<string.h>
+	"funciones.h"
+
